@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+reacthook/node_modules
+reacthook/.pnp
+reacthook/.pnp.js
+
+# testing
+reacthook/coverage
+
+# production
+reacthook/build
+
+# misc
+reacthook/.DS_Store
+reacthook/.env.local
+reacthook/.env.development.local
+reacthook/.env.test.local
+reacthook/.env.production.local
+
+reacthook/npm-debug.log*
+reacthook/yarn-debug.log*
+reacthook/yarn-error.log*
