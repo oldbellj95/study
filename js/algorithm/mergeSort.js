@@ -14,6 +14,7 @@ function merge(al, ar){
             r.push(al.shift());
         }
     }
+    //왼쪽이나 오른쪽 배열이 1개 이상을 가지고 있을떄 정렬하는 부분.
     while(al.length){r.push(al.shift());}
     while(ar.length){r.push(ar.shift());}
     return r;
